@@ -47,6 +47,7 @@ argument in a box.
 #- source
 %doc %{_texmfdistdir}/source/latex/sitem/sitem.dtx
 %doc %{_texmfdistdir}/source/latex/sitem/sitem.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +58,5 @@ argument in a box.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
