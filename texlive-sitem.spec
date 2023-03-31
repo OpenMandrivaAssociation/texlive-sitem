@@ -1,6 +1,6 @@
 Name:		texlive-sitem
 Version:	22136
-Release:	1
+Release:	2
 Summary:	Save the optional argument of \item
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sitem
