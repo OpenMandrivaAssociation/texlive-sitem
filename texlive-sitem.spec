@@ -3,7 +3,7 @@ Version:	22136
 Release:	2
 Summary:	Save the optional argument of \item
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sitem
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/sitem
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sitem.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/sitem.doc.r%{version}.tar.xz
